@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Coimbatore.ai
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**A template that's unique to you.**
 
-## Available Scripts
+## Project Overview
 
-In the project directory, you can run:
+**Coimbatore.ai** Coimbatore Finder is a React-based web application designed to help users find restaurants and schools in Coimbatore. The application features a user-friendly interface, allowing users to search for their desired locations easily. It also provides real-time loading animations and informative feedback for a better user experience.
+.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Search for restaurants near you.
+- Search for schools in Coimbatore.
+- Interactive UI with responsive design.
+- Real-time loading indicators.
+- Input validation with user feedback.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- **React**: JavaScript library for building user interfaces.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **Lucide React**: SVG icons for React.
+- **Sonner**: Lightweight toast notifications for feedback.
+- **Vercel**: For hosting the application.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Live Demo
 
-### `npm run build`
+Check out the live version of the project hosted on Vercel: [Square Space Demo](https://coimbatoreai.vercel.app/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To get a local copy up and running, follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `npm run eject`
+- Node.js (v14 or above)
+- npm (v5.6 or above)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/shinadhmuhammed/Huemn-MT.git](https://github.com/shinadhmuhammed/GeekStack-MT.git)
+2. Navigate to the project directory:
+   ```bash
+   cd mt
+3. Install the required dependencies:
+   ```bash
+   npm install
+4. Start the development server:
+   ```bash
+   npm start
+5. Open your browser and navigate to http://localhost:3000 to see your application in action.
+6. To create a production build, run:
+```bash
+npm run build
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   
+   
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
