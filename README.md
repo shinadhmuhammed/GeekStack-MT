@@ -1,7 +1,5 @@
 # Coimbatore.ai
 
-**A template that's unique to you.**
-
 ## Project Overview
 
 **Coimbatore.ai** Coimbatore Finder is a React-based web application designed to help users find restaurants and schools in Coimbatore. The application features a user-friendly interface, allowing users to search for their desired locations easily. It also provides real-time loading animations and informative feedback for a better user experience.
