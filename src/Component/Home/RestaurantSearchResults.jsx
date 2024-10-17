@@ -6,14 +6,16 @@ import res3 from '../../Images/img3.jpg'
 
 const RestaurantSearchResults = () => {
   return (
-    <div className=" p-4">
-      <h1 className="text-white text-2xl font-semibold mb-4 ml-36">
+    <div className="p-4 md:p-8 lg:p-12">
+    <div className="mb-4 ml-0 md:ml-36 text-center md:text-left">
+      <h1 className="text-white text-2xl font-semibold">
         Restaurants near me
       </h1>
-      <div className="flex items-center text-gray-400 mb-6">
-        <div className="w-4 h-4 bg-gray-400 rounded-full mr-2 animate-pulse ml-36"></div>
+      <div className="flex items-center text-gray-400 mt-2 justify-center md:justify-start">
+        <div className="w-4 h-4 bg-gray-400 rounded-full mr-2 animate-pulse"></div>
         <p>Showing the result for your query</p>
       </div>
+    </div>
       <RestaurantCard
         name="Haribhavanam restaurant"
         rating="4.3"
@@ -21,7 +23,7 @@ const RestaurantSearchResults = () => {
         trusted={true}
         address="Avinashi road, Peelamedu, Coimbatore"
         distance="2.6 Km"
-        tags={["Veg food", "South Indian", "Family Friendly"]}
+        tags={["Veg food", "South Indian"]}
         phone="06366243531"
         image={res3}
       />
@@ -32,7 +34,7 @@ const RestaurantSearchResults = () => {
         trusted={false}
         address="Avinashi road, Peelamedu, Coimbatore"
         distance="2.6 Km"
-        tags={["Veg food", "Fast Service", "Budget Friendly"]}
+        tags={["Veg food", "Fast Service"]}
         phone="06366243531"
         image={res2}
       />
@@ -43,7 +45,7 @@ const RestaurantSearchResults = () => {
         trusted={false}
         address="Avinashi road, Peelamedu, Coimbatore"
         distance="2.6 Km"
-        tags={["Veg food", "Fast Service", "Budget Friendly"]}
+        tags={["Veg food", "Fast Service"]}
         phone="06366243531"
         image={res1}
       />

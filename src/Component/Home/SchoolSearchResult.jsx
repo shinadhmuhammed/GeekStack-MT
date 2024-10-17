@@ -5,14 +5,16 @@ import school2 from '../../Images/school2.jpg'
 
 const SchoolSearchResults = () => {
   return (
-    <div className="p-4">
-      <h1 className="text-white text-2xl font-semibold mb-4 ml-36">
-        Schools in Coimbatore
+    <div className="p-4 md:p-8 lg:p-12">
+    <div className="mb-4 ml-0 md:ml-36 text-center md:text-left">
+      <h1 className="text-white text-2xl font-semibold">
+        Schools near me
       </h1>
-      <div className="flex items-center text-gray-400 mb-6">
-        <div className="w-4 h-4 bg-gray-400 rounded-full mr-2 animate-pulse ml-36"></div>
+      <div className="flex items-center text-gray-400 mt-2 justify-center md:justify-start">
+        <div className="w-4 h-4 bg-gray-400 rounded-full mr-2 animate-pulse"></div>
         <p>Showing the result for your query</p>
       </div>
+    </div>
       <Card
         name="Coimbatore Public School"
         rating="4.8"

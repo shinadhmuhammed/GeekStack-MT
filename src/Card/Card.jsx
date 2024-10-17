@@ -12,9 +12,13 @@ const Card = ({
   phone,
   image,
 }) => (
-  <div className="bg-gray-800 rounded-lg p-4 mb-4 flex ml-36 mr-36 ">
-    <img src={image} alt={name} className="w-24 h-24 rounded-lg mr-4 flex-shrink-0 object-cover" />
-    <div className="flex-grow ">
+  <div className="bg-gray-800 rounded-lg p-4 mb-4 flex flex-col sm:flex-row mx-4 sm:mx-8 lg:mx-36">
+    <img
+      src={image}
+      alt={name}
+      className="w-24 h-24 rounded-lg mb-4 sm:mb-0 sm:mr-4 flex-shrink-0 object-cover"
+    />
+    <div className="flex-grow">
       <div className="flex justify-between items-start">
         <div>
           <h3 className="text-white text-lg font-semibold">{name}</h3>
@@ -61,7 +65,7 @@ const Card = ({
           {address} · {distance}
         </span>
       </div>
-      <div className="flex mt-2 space-x-2">
+      <div className="flex mt-2 space-x-2 flex-wrap">
         {tags.map((tag, index) => (
           <span
             key={index}
@@ -71,7 +75,7 @@ const Card = ({
           </span>
         ))}
       </div>
-      <div className="flex mt-3 space-x-2">
+      <div className="flex mt-3 space-x-2 flex-wrap">
         <button className="bg-gray-900 text-white text-sm px-3 py-1 rounded-full flex items-center">
           <Phone size={14} className="mr-1" />
           {phone}
